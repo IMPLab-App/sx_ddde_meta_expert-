@@ -1,0 +1,174 @@
+{
+  "created_at": "20260902_203138",
+  "description": "Current-code SegFormerVectorMFF + MetaExpertNet + ViT two-ablation queue. no_dea_aggregator keeps MFF and merges no_fuse_loss/fix_fuse_mask; no_mff removes MFF.",
+  "tasks": [
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_dea_aggregator/run_1_pic_lb100_5_ulb250_5_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_dea_aggregator",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_dea_aggregator/run_1_pic_lb100_5_ulb250_5_exp_no_dea_aggregator/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "true",
+        "ablation_no_mff": "false",
+        "ablation_no_fuse_loss": "true",
+        "ablation_fix_fuse_mask": "true"
+      }
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_dea_aggregator/run_2_pic_lb100_10_ulb250_10_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_dea_aggregator",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_dea_aggregator/run_2_pic_lb100_10_ulb250_10_exp_no_dea_aggregator/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "true",
+        "ablation_no_mff": "false",
+        "ablation_no_fuse_loss": "true",
+        "ablation_fix_fuse_mask": "true"
+      }
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_dea_aggregator/run_3_pic_lb100_5_ulb315_1.0_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_dea_aggregator",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_dea_aggregator/run_3_pic_lb100_5_ulb315_1.0_exp_no_dea_aggregator/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "true",
+        "ablation_no_mff": "false",
+        "ablation_no_fuse_loss": "true",
+        "ablation_fix_fuse_mask": "true"
+      }
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_dea_aggregator/run_4_pic_lb100_10_ulb315_1.0_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_dea_aggregator",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_dea_aggregator/run_4_pic_lb100_10_ulb315_1.0_exp_no_dea_aggregator/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "true",
+        "ablation_no_mff": "false",
+        "ablation_no_fuse_loss": "true",
+        "ablation_fix_fuse_mask": "true"
+      }
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_dea_aggregator/run_5_pic_lb100_5_ulb250_-5_pxe_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_dea_aggregator",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_dea_aggregator/run_5_pic_lb100_5_ulb250_-5_pxe_no_dea_aggregator/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "true",
+        "ablation_no_mff": "false",
+        "ablation_no_fuse_loss": "true",
+        "ablation_fix_fuse_mask": "true"
+      }
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_dea_aggregator/run_6_pic_lb100_10_ulb250_-10_pxe_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_dea_aggregator",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_dea_aggregator/run_6_pic_lb100_10_ulb250_-10_pxe_no_dea_aggregator/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "true",
+        "ablation_no_mff": "false",
+        "ablation_no_fuse_loss": "true",
+        "ablation_fix_fuse_mask": "true"
+      }
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_mff/run_1_pic_lb100_5_ulb250_5_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_mff",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_mff/run_1_pic_lb100_5_ulb250_5_exp_no_mff/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "false",
+        "ablation_no_mff": "true",
+        "ablation_no_fuse_loss": "false",
+        "ablation_fix_fuse_mask": "false"
+      }
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_mff/run_2_pic_lb100_10_ulb250_10_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_mff",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_mff/run_2_pic_lb100_10_ulb250_10_exp_no_mff/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "false",
+        "ablation_no_mff": "true",
+        "ablation_no_fuse_loss": "false",
+        "ablation_fix_fuse_mask": "false"
+      }
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_mff/run_3_pic_lb100_5_ulb315_1.0_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_mff",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_mff/run_3_pic_lb100_5_ulb315_1.0_exp_no_mff/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "false",
+        "ablation_no_mff": "true",
+        "ablation_no_fuse_loss": "false",
+        "ablation_fix_fuse_mask": "false"
+      }
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_mff/run_4_pic_lb100_10_ulb315_1.0_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_mff",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_mff/run_4_pic_lb100_10_ulb315_1.0_exp_no_mff/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "false",
+        "ablation_no_mff": "true",
+        "ablation_no_fuse_loss": "false",
+        "ablation_fix_fuse_mask": "false"
+      }
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_mff/run_5_pic_lb100_5_ulb250_-5_pxe_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_mff",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe_no_mff",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_mff/run_5_pic_lb100_5_ulb250_-5_pxe_no_mff/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "false",
+        "ablation_no_mff": "true",
+        "ablation_no_fuse_loss": "false",
+        "ablation_fix_fuse_mask": "false"
+      }
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_two_ablation_20260902_203138/no_mff/run_6_pic_lb100_10_ulb250_-10_pxe_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_two_ablations/no_mff",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe_no_mff",
+      "checkpoint": "saved_models_segformer_mff_two_ablations/no_mff/run_6_pic_lb100_10_ulb250_-10_pxe_no_mff/model_best.pth",
+      "flags": {
+        "ablation_no_dea_aggregator": "false",
+        "ablation_no_mff": "true",
+        "ablation_no_fuse_loss": "false",
+        "ablation_fix_fuse_mask": "false"
+      }
+    }
+  ]
+}

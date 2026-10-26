@@ -1,0 +1,247 @@
+{
+  "created_at": "20260901_163800",
+  "physical_gpu_default": 1,
+  "description": "Current-code SegFormerVectorMFF + MetaExpertNet + ViT queue for six PIC runs and ablations.",
+  "tasks": [
+    {
+      "variant": "main",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/main/run_1_pic_lb100_5_ulb250_5_exp.yaml",
+      "save_dir": "./saved_models_segformer_mff_six_cases",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp",
+      "checkpoint": "saved_models_segformer_mff_six_cases/run_1_pic_lb100_5_ulb250_5_exp/model_best.pth"
+    },
+    {
+      "variant": "main",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/main/run_2_pic_lb100_10_ulb250_10_exp.yaml",
+      "save_dir": "./saved_models_segformer_mff_six_cases",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp",
+      "checkpoint": "saved_models_segformer_mff_six_cases/run_2_pic_lb100_10_ulb250_10_exp/model_best.pth"
+    },
+    {
+      "variant": "main",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/main/run_3_pic_lb100_5_ulb315_1.0_exp.yaml",
+      "save_dir": "./saved_models_segformer_mff_six_cases",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "checkpoint": "saved_models_segformer_mff_six_cases/run_3_pic_lb100_5_ulb315_1.0_exp/model_best.pth"
+    },
+    {
+      "variant": "main",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/main/run_4_pic_lb100_10_ulb315_1.0_exp.yaml",
+      "save_dir": "./saved_models_segformer_mff_six_cases",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "checkpoint": "saved_models_segformer_mff_six_cases/run_4_pic_lb100_10_ulb315_1.0_exp/model_best.pth"
+    },
+    {
+      "variant": "main",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/main/run_5_pic_lb100_5_ulb250_-5_pxe.yaml",
+      "save_dir": "./saved_models_segformer_mff_six_cases",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "checkpoint": "saved_models_segformer_mff_six_cases/run_5_pic_lb100_5_ulb250_-5_pxe/model_best.pth"
+    },
+    {
+      "variant": "main",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/main/run_6_pic_lb100_10_ulb250_-10_pxe.yaml",
+      "save_dir": "./saved_models_segformer_mff_six_cases",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "checkpoint": "saved_models_segformer_mff_six_cases/run_6_pic_lb100_10_ulb250_-10_pxe/model_best.pth"
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_dea_aggregator/run_1_pic_lb100_5_ulb250_5_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_dea_aggregator",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_dea_aggregator/run_1_pic_lb100_5_ulb250_5_exp_no_dea_aggregator/model_best.pth"
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_dea_aggregator/run_2_pic_lb100_10_ulb250_10_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_dea_aggregator",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_dea_aggregator/run_2_pic_lb100_10_ulb250_10_exp_no_dea_aggregator/model_best.pth"
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_dea_aggregator/run_3_pic_lb100_5_ulb315_1.0_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_dea_aggregator",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_dea_aggregator/run_3_pic_lb100_5_ulb315_1.0_exp_no_dea_aggregator/model_best.pth"
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_dea_aggregator/run_4_pic_lb100_10_ulb315_1.0_exp_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_dea_aggregator",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_dea_aggregator/run_4_pic_lb100_10_ulb315_1.0_exp_no_dea_aggregator/model_best.pth"
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_dea_aggregator/run_5_pic_lb100_5_ulb250_-5_pxe_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_dea_aggregator",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_dea_aggregator/run_5_pic_lb100_5_ulb250_-5_pxe_no_dea_aggregator/model_best.pth"
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_dea_aggregator/run_6_pic_lb100_10_ulb250_-10_pxe_no_dea_aggregator.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_dea_aggregator",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe_no_dea_aggregator",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_dea_aggregator/run_6_pic_lb100_10_ulb250_-10_pxe_no_dea_aggregator/model_best.pth"
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_mff/run_1_pic_lb100_5_ulb250_5_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_mff",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_mff/run_1_pic_lb100_5_ulb250_5_exp_no_mff/model_best.pth"
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_mff/run_2_pic_lb100_10_ulb250_10_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_mff",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_mff/run_2_pic_lb100_10_ulb250_10_exp_no_mff/model_best.pth"
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_mff/run_3_pic_lb100_5_ulb315_1.0_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_mff",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_mff/run_3_pic_lb100_5_ulb315_1.0_exp_no_mff/model_best.pth"
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_mff/run_4_pic_lb100_10_ulb315_1.0_exp_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_mff",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp_no_mff",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_mff/run_4_pic_lb100_10_ulb315_1.0_exp_no_mff/model_best.pth"
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_mff/run_5_pic_lb100_5_ulb250_-5_pxe_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_mff",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe_no_mff",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_mff/run_5_pic_lb100_5_ulb250_-5_pxe_no_mff/model_best.pth"
+    },
+    {
+      "variant": "no_mff",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/no_mff/run_6_pic_lb100_10_ulb250_-10_pxe_no_mff.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/no_mff",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe_no_mff",
+      "checkpoint": "saved_models_segformer_mff_ablations/no_mff/run_6_pic_lb100_10_ulb250_-10_pxe_no_mff/model_best.pth"
+    },
+    {
+      "variant": "dynamic_no_fuse_loss",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/dynamic_no_fuse_loss/run_1_pic_lb100_5_ulb250_5_exp_dynamic_no_fuse_loss.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/dynamic_no_fuse_loss",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp_dynamic_no_fuse_loss",
+      "checkpoint": "saved_models_segformer_mff_ablations/dynamic_no_fuse_loss/run_1_pic_lb100_5_ulb250_5_exp_dynamic_no_fuse_loss/model_best.pth"
+    },
+    {
+      "variant": "dynamic_no_fuse_loss",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/dynamic_no_fuse_loss/run_2_pic_lb100_10_ulb250_10_exp_dynamic_no_fuse_loss.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/dynamic_no_fuse_loss",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp_dynamic_no_fuse_loss",
+      "checkpoint": "saved_models_segformer_mff_ablations/dynamic_no_fuse_loss/run_2_pic_lb100_10_ulb250_10_exp_dynamic_no_fuse_loss/model_best.pth"
+    },
+    {
+      "variant": "dynamic_no_fuse_loss",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/dynamic_no_fuse_loss/run_3_pic_lb100_5_ulb315_1.0_exp_dynamic_no_fuse_loss.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/dynamic_no_fuse_loss",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp_dynamic_no_fuse_loss",
+      "checkpoint": "saved_models_segformer_mff_ablations/dynamic_no_fuse_loss/run_3_pic_lb100_5_ulb315_1.0_exp_dynamic_no_fuse_loss/model_best.pth"
+    },
+    {
+      "variant": "dynamic_no_fuse_loss",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/dynamic_no_fuse_loss/run_4_pic_lb100_10_ulb315_1.0_exp_dynamic_no_fuse_loss.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/dynamic_no_fuse_loss",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp_dynamic_no_fuse_loss",
+      "checkpoint": "saved_models_segformer_mff_ablations/dynamic_no_fuse_loss/run_4_pic_lb100_10_ulb315_1.0_exp_dynamic_no_fuse_loss/model_best.pth"
+    },
+    {
+      "variant": "dynamic_no_fuse_loss",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/dynamic_no_fuse_loss/run_5_pic_lb100_5_ulb250_-5_pxe_dynamic_no_fuse_loss.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/dynamic_no_fuse_loss",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe_dynamic_no_fuse_loss",
+      "checkpoint": "saved_models_segformer_mff_ablations/dynamic_no_fuse_loss/run_5_pic_lb100_5_ulb250_-5_pxe_dynamic_no_fuse_loss/model_best.pth"
+    },
+    {
+      "variant": "dynamic_no_fuse_loss",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/dynamic_no_fuse_loss/run_6_pic_lb100_10_ulb250_-10_pxe_dynamic_no_fuse_loss.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/dynamic_no_fuse_loss",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe_dynamic_no_fuse_loss",
+      "checkpoint": "saved_models_segformer_mff_ablations/dynamic_no_fuse_loss/run_6_pic_lb100_10_ulb250_-10_pxe_dynamic_no_fuse_loss/model_best.pth"
+    },
+    {
+      "variant": "fix_fuse_mask",
+      "run": "run_1_pic_lb100_5_ulb250_5_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/fix_fuse_mask/run_1_pic_lb100_5_ulb250_5_exp_fix_fuse_mask.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/fix_fuse_mask",
+      "save_name": "run_1_pic_lb100_5_ulb250_5_exp_fix_fuse_mask",
+      "checkpoint": "saved_models_segformer_mff_ablations/fix_fuse_mask/run_1_pic_lb100_5_ulb250_5_exp_fix_fuse_mask/model_best.pth"
+    },
+    {
+      "variant": "fix_fuse_mask",
+      "run": "run_2_pic_lb100_10_ulb250_10_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/fix_fuse_mask/run_2_pic_lb100_10_ulb250_10_exp_fix_fuse_mask.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/fix_fuse_mask",
+      "save_name": "run_2_pic_lb100_10_ulb250_10_exp_fix_fuse_mask",
+      "checkpoint": "saved_models_segformer_mff_ablations/fix_fuse_mask/run_2_pic_lb100_10_ulb250_10_exp_fix_fuse_mask/model_best.pth"
+    },
+    {
+      "variant": "fix_fuse_mask",
+      "run": "run_3_pic_lb100_5_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/fix_fuse_mask/run_3_pic_lb100_5_ulb315_1.0_exp_fix_fuse_mask.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/fix_fuse_mask",
+      "save_name": "run_3_pic_lb100_5_ulb315_1.0_exp_fix_fuse_mask",
+      "checkpoint": "saved_models_segformer_mff_ablations/fix_fuse_mask/run_3_pic_lb100_5_ulb315_1.0_exp_fix_fuse_mask/model_best.pth"
+    },
+    {
+      "variant": "fix_fuse_mask",
+      "run": "run_4_pic_lb100_10_ulb315_1.0_exp",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/fix_fuse_mask/run_4_pic_lb100_10_ulb315_1.0_exp_fix_fuse_mask.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/fix_fuse_mask",
+      "save_name": "run_4_pic_lb100_10_ulb315_1.0_exp_fix_fuse_mask",
+      "checkpoint": "saved_models_segformer_mff_ablations/fix_fuse_mask/run_4_pic_lb100_10_ulb315_1.0_exp_fix_fuse_mask/model_best.pth"
+    },
+    {
+      "variant": "fix_fuse_mask",
+      "run": "run_5_pic_lb100_5_ulb250_-5_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/fix_fuse_mask/run_5_pic_lb100_5_ulb250_-5_pxe_fix_fuse_mask.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/fix_fuse_mask",
+      "save_name": "run_5_pic_lb100_5_ulb250_-5_pxe_fix_fuse_mask",
+      "checkpoint": "saved_models_segformer_mff_ablations/fix_fuse_mask/run_5_pic_lb100_5_ulb250_-5_pxe_fix_fuse_mask/model_best.pth"
+    },
+    {
+      "variant": "fix_fuse_mask",
+      "run": "run_6_pic_lb100_10_ulb250_-10_pxe",
+      "config": "config/_tmp_runs/segformer_mff_six_cases_ablation_20260901_163800/fix_fuse_mask/run_6_pic_lb100_10_ulb250_-10_pxe_fix_fuse_mask.yaml",
+      "save_dir": "./saved_models_segformer_mff_ablations/fix_fuse_mask",
+      "save_name": "run_6_pic_lb100_10_ulb250_-10_pxe_fix_fuse_mask",
+      "checkpoint": "saved_models_segformer_mff_ablations/fix_fuse_mask/run_6_pic_lb100_10_ulb250_-10_pxe_fix_fuse_mask/model_best.pth"
+    }
+  ]
+}

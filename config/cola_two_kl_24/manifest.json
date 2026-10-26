@@ -1,0 +1,258 @@
+{
+  "variants": [
+    "full",
+    "no_mff",
+    "no_dea_aggregator",
+    "no_ddde_kl"
+  ],
+  "runs": [
+    "run_1_pic_lb100_50_ulb250_50_exp",
+    "run_2_pic_lb100_100_ulb250_100_exp",
+    "run_3_pic_lb100_50_ulb315_1.0_exp",
+    "run_4_pic_lb100_100_ulb315_1.0_exp",
+    "run_5_pic_lb100_50_ulb250_-50_pxe",
+    "run_6_pic_lb100_100_ulb250_-100_pxe"
+  ],
+  "tasks": [
+    {
+      "variant": "full",
+      "run_name": "run_1_pic_lb100_50_ulb250_50_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/full/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "source": "config/custom_sweep/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "config_sha256": "2ca82415db8b9ca7d8ac9110f4ba7ab2fd859a2a4fd2c100b4b9e80fc509201e",
+      "model_dir": "saved_models_cola_two_kl/full/run_1_pic_lb100_50_ulb250_50_exp__full",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "full",
+      "run_name": "run_2_pic_lb100_100_ulb250_100_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/full/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "source": "config/custom_sweep/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "config_sha256": "fdf18e6763a45c4220038e3adeaae47f0346c1f28f393d83abff6644fbfae9f9",
+      "model_dir": "saved_models_cola_two_kl/full/run_2_pic_lb100_100_ulb250_100_exp__full",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "full",
+      "run_name": "run_3_pic_lb100_50_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/full/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "config_sha256": "100939c135b0f767a0ecb55aaf9fe5d276049c2fbec7c065ee49f6b5f6d8b35f",
+      "model_dir": "saved_models_cola_two_kl/full/run_3_pic_lb100_50_ulb315_1.0_exp__full",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "full",
+      "run_name": "run_4_pic_lb100_100_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/full/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "config_sha256": "67b9571b60c73a97b91308fe2196d249ef59cdf2f1ceb5c21f2574292ca3adcd",
+      "model_dir": "saved_models_cola_two_kl/full/run_4_pic_lb100_100_ulb315_1.0_exp__full",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "full",
+      "run_name": "run_5_pic_lb100_50_ulb250_-50_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/full/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "source": "config/custom_sweep/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "config_sha256": "23e1ba00b1cf1f1261003078c6869f1d003c5ac2758c2cba7c70601c71bc15a9",
+      "model_dir": "saved_models_cola_two_kl/full/run_5_pic_lb100_50_ulb250_-50_pxe__full",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "full",
+      "run_name": "run_6_pic_lb100_100_ulb250_-100_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/full/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "source": "config/custom_sweep/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "config_sha256": "912e372ca7828f2fcb03af4aa3b451b5fa8039a590b111021c44b905429b3685",
+      "model_dir": "saved_models_cola_two_kl/full/run_6_pic_lb100_100_ulb250_-100_pxe__full",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_mff",
+      "run_name": "run_1_pic_lb100_50_ulb250_50_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_mff/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "source": "config/custom_sweep/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "config_sha256": "0ce78da9da0d3808e02ad4738401e85c88040583f68c624520e6b0767dc3206d",
+      "model_dir": "saved_models_cola_two_kl/no_mff/run_1_pic_lb100_50_ulb250_50_exp__no_mff",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_mff",
+      "run_name": "run_2_pic_lb100_100_ulb250_100_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_mff/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "source": "config/custom_sweep/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "config_sha256": "838812d805e59ae9c6e20d54b59f7535c073a2965a7ebe59ed20446149d1a2dc",
+      "model_dir": "saved_models_cola_two_kl/no_mff/run_2_pic_lb100_100_ulb250_100_exp__no_mff",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_mff",
+      "run_name": "run_3_pic_lb100_50_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_mff/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "config_sha256": "0401473e86e7864cc3dbcb5b2fef7328e7b6f35df06b42d2ddc31962710a2757",
+      "model_dir": "saved_models_cola_two_kl/no_mff/run_3_pic_lb100_50_ulb315_1.0_exp__no_mff",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_mff",
+      "run_name": "run_4_pic_lb100_100_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_mff/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "config_sha256": "ee11d703a79d4852a7af5cb250704ff4f04e0c1ad7bb82d68ce462b382beedb9",
+      "model_dir": "saved_models_cola_two_kl/no_mff/run_4_pic_lb100_100_ulb315_1.0_exp__no_mff",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_mff",
+      "run_name": "run_5_pic_lb100_50_ulb250_-50_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_mff/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "source": "config/custom_sweep/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "config_sha256": "970c6a73ea068fcb5fcc6d4cffd8607ce8f80380eddc4dc624f0fa0509b8dbae",
+      "model_dir": "saved_models_cola_two_kl/no_mff/run_5_pic_lb100_50_ulb250_-50_pxe__no_mff",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_mff",
+      "run_name": "run_6_pic_lb100_100_ulb250_-100_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_mff/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "source": "config/custom_sweep/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "config_sha256": "b4fd9e45599465c7f0881421009c0ccb9b84e8d56d7cd07ca5fb244de3806eaa",
+      "model_dir": "saved_models_cola_two_kl/no_mff/run_6_pic_lb100_100_ulb250_-100_pxe__no_mff",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run_name": "run_1_pic_lb100_50_ulb250_50_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_dea_aggregator/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "source": "config/custom_sweep/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "config_sha256": "3579b5b25a94324f853005279eb3f32474353fde204e79fa59983633aea0eb8f",
+      "model_dir": "saved_models_cola_two_kl/no_dea_aggregator/run_1_pic_lb100_50_ulb250_50_exp__no_dea_aggregator",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run_name": "run_2_pic_lb100_100_ulb250_100_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_dea_aggregator/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "source": "config/custom_sweep/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "config_sha256": "824a28272703ad070f8b584c2da19f3285b449675ddc3d37b4e7b06bac39622e",
+      "model_dir": "saved_models_cola_two_kl/no_dea_aggregator/run_2_pic_lb100_100_ulb250_100_exp__no_dea_aggregator",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run_name": "run_3_pic_lb100_50_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_dea_aggregator/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "config_sha256": "5f86994fd9cc45a123e3a3003749dea55efdf7ea012874e3c443bfb4ae79e084",
+      "model_dir": "saved_models_cola_two_kl/no_dea_aggregator/run_3_pic_lb100_50_ulb315_1.0_exp__no_dea_aggregator",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run_name": "run_4_pic_lb100_100_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_dea_aggregator/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "config_sha256": "c80b276b65afae27176d9d6c13eac6b88d8cd08e88a373de3d1a8192cfcf753f",
+      "model_dir": "saved_models_cola_two_kl/no_dea_aggregator/run_4_pic_lb100_100_ulb315_1.0_exp__no_dea_aggregator",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run_name": "run_5_pic_lb100_50_ulb250_-50_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_dea_aggregator/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "source": "config/custom_sweep/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "config_sha256": "a45270e510d8e78a469a94f8f06829b5ed584403e139a5a503aa8b17134992de",
+      "model_dir": "saved_models_cola_two_kl/no_dea_aggregator/run_5_pic_lb100_50_ulb250_-50_pxe__no_dea_aggregator",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_dea_aggregator",
+      "run_name": "run_6_pic_lb100_100_ulb250_-100_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_dea_aggregator/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "source": "config/custom_sweep/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "config_sha256": "5eadfd34082454c7bea7caf042fdaf5c7f82251f021d7ab7ae908fa192c0f3b1",
+      "model_dir": "saved_models_cola_two_kl/no_dea_aggregator/run_6_pic_lb100_100_ulb250_-100_pxe__no_dea_aggregator",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_ddde_kl",
+      "run_name": "run_1_pic_lb100_50_ulb250_50_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_ddde_kl/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "source": "config/custom_sweep/run_1_pic_lb100_50_ulb250_50_exp.yaml",
+      "config_sha256": "407c0a66907a4aa467fff2b6ae2efee9e0558fa0b4ea1e99dca70cad37bc611e",
+      "model_dir": "saved_models_cola_two_kl/no_ddde_kl/run_1_pic_lb100_50_ulb250_50_exp__no_ddde_kl",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_ddde_kl",
+      "run_name": "run_2_pic_lb100_100_ulb250_100_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_ddde_kl/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "source": "config/custom_sweep/run_2_pic_lb100_100_ulb250_100_exp.yaml",
+      "config_sha256": "a2cdde00fc730a3f67cc669a358a57b3e10b9221382d9512db24f9a910e950d2",
+      "model_dir": "saved_models_cola_two_kl/no_ddde_kl/run_2_pic_lb100_100_ulb250_100_exp__no_ddde_kl",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_ddde_kl",
+      "run_name": "run_3_pic_lb100_50_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_ddde_kl/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_3_pic_lb100_50_ulb315_1.0_exp.yaml",
+      "config_sha256": "e47d70a5e7fe73c2e2a7ab8f5371c5c4bf566a3925b5c2781f6d08f457905a5a",
+      "model_dir": "saved_models_cola_two_kl/no_ddde_kl/run_3_pic_lb100_50_ulb315_1.0_exp__no_ddde_kl",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_ddde_kl",
+      "run_name": "run_4_pic_lb100_100_ulb315_1.0_exp",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_ddde_kl/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "source": "config/custom_sweep/run_4_pic_lb100_100_ulb315_1.0_exp.yaml",
+      "config_sha256": "780565acb1e8b71ac0cab4290f053d9c80e74fd6d0cea4fc185782d75850ca6e",
+      "model_dir": "saved_models_cola_two_kl/no_ddde_kl/run_4_pic_lb100_100_ulb315_1.0_exp__no_ddde_kl",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_ddde_kl",
+      "run_name": "run_5_pic_lb100_50_ulb250_-50_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_ddde_kl/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "source": "config/custom_sweep/run_5_pic_lb100_50_ulb250_-50_pxe.yaml",
+      "config_sha256": "fca220ad1ad79d60880dd5283c0dc1de80b610c63d1c8d7c79109ae7fc358967",
+      "model_dir": "saved_models_cola_two_kl/no_ddde_kl/run_5_pic_lb100_50_ulb250_-50_pxe__no_ddde_kl",
+      "num_train_iter": 20000
+    },
+    {
+      "variant": "no_ddde_kl",
+      "run_name": "run_6_pic_lb100_100_ulb250_-100_pxe",
+      "seed": 2,
+      "config": "config/cola_two_kl_24/no_ddde_kl/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "source": "config/custom_sweep/run_6_pic_lb100_100_ulb250_-100_pxe.yaml",
+      "config_sha256": "b29959ae7327fe1f8d71a3e7a61a274286321556a4582d0c3ef35447b5090bca",
+      "model_dir": "saved_models_cola_two_kl/no_ddde_kl/run_6_pic_lb100_100_ulb250_-100_pxe__no_ddde_kl",
+      "num_train_iter": 20000
+    }
+  ]
+}
